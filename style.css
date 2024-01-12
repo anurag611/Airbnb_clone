@@ -1,0 +1,206 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/search.css');
+.box {
+    
+    font-family: 'Poppins';
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+.navbar{
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: space-between;
+    height: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-top: -25px;
+
+    
+}
+.nav {
+    position: sticky;
+}
+.logo {
+    color: rgb(252, 82, 82);
+    padding-top: 20px;
+}
+.sidebar {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.mid-bar {
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    align-items: center;
+
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid lightgray;
+    flex-basis: content;
+}
+.gg-search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px;
+    
+}
+.gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+.nav-down {
+   display: flex;
+   justify-content: space-between;
+   outline-offset: white;
+   padding-left: 140px;
+   padding-right: 140px;
+   padding-top: 30px;
+   font-family: 'Poppins';
+}
+.filter {
+    border: 1px solid lightgray;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+.filter-link {
+    color: black;
+    text-decoration-line: none;
+    font-size: larger;
+
+}
+.filter-icon {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.total-prizes {
+    font-family: 'Poppins';
+    border: 1px solid lightgray;
+    margin-left: 330px;
+
+    padding: 0px 10px 0px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    justify-content:space-between;
+
+    
+}
+.include-prize {
+    color: grey;
+
+}
+.include-prize-inside {
+    border: none;
+    width: 200px;
+    font-size: larger;
+    padding: 10px;
+    font-size:large;
+    width: 300px;
+    outline: none;
+
+}
+.add-g {
+    color: grey;
+    font-weight: 10;
+    font-size: medium;
+    border: none;
+    outline: none;
+    margin-right: -80px;
+}
+.sep {
+    color: gray;
+    font-weight: lighter;
+}
+.section {
+    color: grey;
+    border: 1px solid lightgray;
+    background-color:lightgray;
+    width: 0.05px;
+    color: white;
+    
+}
+.hotels-box {
+    margin-top: 20px;
+    margin-right: 140px;
+    margin-left: 140px;
+    font-family: "Poppins";
+}
+.hotelbox {
+    /* border: 1px solid lightgray; */
+    padding: 10px;
+    width: 270px;
+    
+    
+}
+.hotelbox-img {
+    width: 100%;
+    border-radius: 20px;
+}
+.hotelinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items : baseline;
+
+}
+.hotels-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftcontent-text {
+    margin: 0px;
+}
+.rightcontent {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.disp-text {
+    margin: 0px;
+}
+.total-prizes{
+    height: 60px;
+}
+.logo1 {
+    width: 60px;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-head {
+    font-size: 32px;
+    gap:10px;
+}
+
